@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- link of Iconscout CDN -->
+    <!--* link of Iconscout CDN -->
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
     />
-    <!-- link of my style -->
+    <!--* link of my style -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Socal Media</title>
   </head>
   <body>
-    <!---------------------------------------Main------------------------------------->
+    <!--* =========================== NAVBAR =========================== -->
     <nav>
       <div class="container">
         <h2 class="log">nokoSoical</h2>
@@ -33,10 +33,11 @@
         </div>
       </div>
     </nav>
-    <!-----------------Main--------------->
+    <!--* =========================== /NAVBAR =========================== -->
+    <!--*===============Main===============-->
     <main>
       <div class="container">
-        <!--============ LEFT ==============-->
+        <!--*============ LEFT ==============-->
         <div class="left">
           <a class="profile" href="#!">
             <div class="profile-photo">
@@ -47,106 +48,553 @@
               <p class="text-muted">@dayi</p>
             </div>
           </a>
-          <!--------------SideBar------------>
+          <!--*==========SideBar==========-->
           <div class="sidebar">
             <a href="#!" class="menu-item active">
               <span><i class="uil uil-home"></i></span>
               <h3>Home</h3>
             </a>
-              <a href="#!" class="menu-item">
-                <span><i class="uil uil-compass"></i></span>
-                <h3>Explore</h3>
-              </a>
-              <a href="#!" class="menu-item" id="notifications">
-                <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
-                <h3>Notifications</h3>
-                <!------------NOTIFICATION POPUP----------------->
-                <div class="notifications-popup">
-                  <div>
-                    <div class="profile-photo">
-                      <img src="./images/profile-2.jpg" alt="profile photo"/>
-                    </div>
-                    <div class="notification-body">
-                      <b>Keke Benjamin</b> accepted your friend request
-                      <small class="text-muted uppercase" >2 days ego</small>
-                    </div>
+            <a href="#!" class="menu-item">
+              <span><i class="uil uil-compass"></i></span>
+              <h3>Explore</h3>
+            </a>
+            <a href="#!" class="menu-item" id="notifications">
+              <span
+                ><i class="uil uil-bell"
+                  ><small class="notification-count">9+</small></i
+                ></span
+              >
+              <h3>Notifications</h3>
+              <!--*===========NOTIFICATION POPUP===========-->
+              <div class="notifications-popup">
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-2.jpg" alt="profile photo" />
                   </div>
-                  <div>
-                    <div class="profile-photo">
-                      <img src="./images/profile-3.jpg" alt="profile photo"/>
-                    </div>
-                    <div class="notification-body">
-                      <b>John Doe</b> comented on your post
-                      <small class="text-muted uppercase" >1 hour ego</small>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="profile-photo">
-                      <img src="./images/profile-4.jpg" alt="profile photo"/>
-                    </div>
-                    <div class="notification-body">
-                      <b>Mary Oppong</b> and <b>283 others</b> liked your post
-                      <small class="text-muted uppercase" >4 hour ego</small>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="profile-photo">
-                      <img src="./images/profile-5.jpg" alt="profile photo"/>
-                    </div>
-                    <div class="notification-body">
-                      <b>Doris Y.Lartey</b> commented on a post you are tagged in
-                      <small class="text-muted uppercase" >4 minutes ego</small>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="profile-photo">
-                      <img src="./images/profile-6.jpg" alt="profile photo"/>
-                    </div>
-                    <div class="notification-body">
-                      <b>ALina Jonson</b> commented on a post you are tagged in
-                      <small class="text-muted uppercase" >1 hour ego</small>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="profile-photo">
-                      <img src="./images/profile-7.jpg" alt="profile photo"/>
-                    </div>
-                    <div class="notification-body">
-                      <b>Jane Doe</b> commentd on your post
-                      <small class="text-muted uppercase" >1 days ego</small>
-                    </div>
+                  <div class="notification-body">
+                    <b>Keke Benjamin</b> accepted your friend request
+                    <small class="text-muted uppercase">2 days ego</small>
                   </div>
                 </div>
-                <!------------/NOTIFICATION POPUP----------------->
-              </a>
-              <a href="#!" class="menu-item">
-                <span><i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span><h3>Messages</h3>
-              </a>
-              <a href="#!" class="menu-item">
-                <span><i class="uil uil-bookmark"></i></span><h3>Bookmarks</h3>
-              </a>
-              <a href="#!" class="menu-item">
-                <span><i class="uil uil-chart-line"></i></span><h3>Analytics</h3>
-              </a>
-              <a href="#!" class="menu-item">
-                <span><i class="uil uil-palette"></i></span><h3>Theme</h3>
-              </a>
-              <a href="#!" class="menu-item">
-                <span><i class="uil uil-setting"></i></span><h3>Settings</h3>
-              </a>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-3.jpg" alt="profile photo" />
+                  </div>
+                  <div class="notification-body">
+                    <b>John Doe</b> comented on your post
+                    <small class="text-muted uppercase">1 hour ego</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-4.jpg" alt="profile photo" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Mary Oppong</b> and <b>283 others</b> liked your post
+                    <small class="text-muted uppercase">4 hour ego</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-5.jpg" alt="profile photo" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Doris Y.Lartey</b> commented on a post you are tagged in
+                    <small class="text-muted uppercase">4 minutes ego</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-6.jpg" alt="profile photo" />
+                  </div>
+                  <div class="notification-body">
+                    <b>ALina Jonson</b> commented on a post you are tagged in
+                    <small class="text-muted uppercase">1 hour ego</small>
+                  </div>
+                </div>
+                <div>
+                  <div class="profile-photo">
+                    <img src="./images/profile-7.jpg" alt="profile photo" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Jane Doe</b> commentd on your post
+                    <small class="text-muted uppercase">1 days ego</small>
+                  </div>
+                </div>
+              </div>
+              <!--*===========/NOTIFICATION POPUP===========-->
+            </a>
+            <a href="#!" class="menu-item">
+              <span
+                ><i class="uil uil-envelope-alt"
+                  ><small class="notification-count">6</small></i
+                ></span
+              >
+              <h3>Messages</h3>
+            </a>
+            <a href="#!" class="menu-item">
+              <span><i class="uil uil-bookmark"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <a href="#!" class="menu-item">
+              <span><i class="uil uil-chart-line"></i></span>
+              <h3>Analytics</h3>
+            </a>
+            <a href="#!" class="menu-item">
+              <span><i class="uil uil-palette"></i></span>
+              <h3>Theme</h3>
+            </a>
+            <a href="#!" class="menu-item">
+              <span><i class="uil uil-setting"></i></span>
+              <h3>Settings</h3>
+            </a>
           </div>
-          <!--------------/SideBar------------>
+          <!--*========== /SideBar ==========-->
           <label class="btn btn-primary" for="create-post">Create post</label>
         </div>
-        <!--============ /LEFT ==============-->
-        <!--============ MIDDLE ==============-->
+        <!--*============ /LEFT ==============-->
+        <!--*============ MIDDLE ==============-->
         <div class="middle">
+          <!--*================== STORIES ================== -->
+          <div class="stories">
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-1.jpg" alt="profile-photo" />
+              </div>
+              <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-9.jpg" alt="profile-photo" />
+              </div>
+              <p class="name">Donald Tramp</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-10.jpg" alt="profile-photo" />
+              </div>
+              <p class="name">Eve Jeames</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-11.jpg" alt="profile-photo" />
+              </div>
+              <p class="name">Via Deo</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-12.jpg" alt="profile-photo" />
+              </div>
+              <p class="name">John Smith</p>
+            </div>
+            <div class="story">
+              <div class="profile-photo">
+                <img src="./images/profile-13.jpg" alt="profile-photo" />
+              </div>
+              <p class="name">Mark Roberd</p>
+            </div>
+          </div>
+          <!--*================== /STORIES ================== -->
+          <form class="create-post">
+            <div class="profile-photo">
+              <img src="./images/profile-1.jpg" alt="" />
+            </div>
+            <input
+              type="text"
+              placeholder="What's on your mind, Diana?"
+              id="create-post"
+            />
+            <input class="btn btn-primary" type="submit" value="Post" id="" />
+          </form>
+          <!--*============ FEEDS ==============-->
+          <div class="feeds">
+            <!--*============ FEED ==============-->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-13.jpg" alt="profile photo" />
+                  </div>
+                  <div class="info">
+                    <h3>Javohir Coder</h3>
+                    <small class="uppercase">Dubai, 5 minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-v"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="feed" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="Bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span
+                  ><img src="./images/profile-10.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-4.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-12.jpg" alt="profile photo"
+                /></span>
+                <p>Likeed by <b>Ernest Achiever</b> end <b>2,323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> You look great, I'm proud of you
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!--*============ /FEED ==============-->
+          </div>
+          <div class="feeds">
+            <!--*============ FEED ==============-->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-13.jpg" alt="profile photo" />
+                  </div>
+                  <div class="info">
+                    <h3>Javohir Coder</h3>
+                    <small class="uppercase">Dubai, 5 minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-v"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="feed" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="Bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span
+                  ><img src="./images/profile-10.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-4.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-12.jpg" alt="profile photo"
+                /></span>
+                <p>Likeed by <b>Ernest Achiever</b> end <b>2,323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> You look great, I'm proud of you
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!--*============ /FEED ==============-->
+            <!--*============ FEED ==============-->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-13.jpg" alt="profile photo" />
+                  </div>
+                  <div class="info">
+                    <h3>Javohir Coder</h3>
+                    <small class="uppercase">Dubai, 5 minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-v"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="feed" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="Bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span
+                  ><img src="./images/profile-10.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-4.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-12.jpg" alt="profile photo"
+                /></span>
+                <p>Likeed by <b>Ernest Achiever</b> end <b>2,323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> You look great, I'm proud of you
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!--*============ /FEED ==============-->
+            <!--*============ FEED ==============-->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-13.jpg" alt="profile photo" />
+                  </div>
+                  <div class="info">
+                    <h3>Javohir Coder</h3>
+                    <small class="uppercase">Dubai, 5 minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-v"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="feed" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="Bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span
+                  ><img src="./images/profile-10.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-4.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-12.jpg" alt="profile photo"
+                /></span>
+                <p>Likeed by <b>Ernest Achiever</b> end <b>2,323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> You look great, I'm proud of you
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!--*============ /FEED ==============-->
+            <!--*============ FEED ==============-->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-13.jpg" alt="profile photo" />
+                  </div>
+                  <div class="info">
+                    <h3>Javohir Coder</h3>
+                    <small class="uppercase">Dubai, 5 minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-v"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="feed" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="Bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span
+                  ><img src="./images/profile-10.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-4.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-12.jpg" alt="profile photo"
+                /></span>
+                <p>Likeed by <b>Ernest Achiever</b> end <b>2,323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> You look great, I'm proud of you
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!--*============ /FEED ==============-->
+            <!--*============ FEED ==============-->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-13.jpg" alt="profile photo" />
+                  </div>
+                  <div class="info">
+                    <h3>Javohir Coder</h3>
+                    <small class="uppercase">Dubai, 5 minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-v"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="feed" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="Bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span
+                  ><img src="./images/profile-10.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-4.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-12.jpg" alt="profile photo"
+                /></span>
+                <p>Likeed by <b>Ernest Achiever</b> end <b>2,323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> You look great, I'm proud of you
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!--*============ /FEED ==============-->
+            <!--*============ FEED ==============-->
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-photo">
+                    <img src="./images/profile-13.jpg" alt="profile photo" />
+                  </div>
+                  <div class="info">
+                    <h3>Javohir Coder</h3>
+                    <small class="uppercase">Dubai, 5 minutes ago</small>
+                  </div>
+                </div>
+                <span class="edit">
+                  <i class="uil uil-ellipsis-v"></i>
+                </span>
+              </div>
+
+              <div class="photo">
+                <img src="./images/feed-1.jpg" alt="feed" />
+              </div>
+
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="uil uil-heart"></i></span>
+                  <span><i class="uil uil-comment-dots"></i></span>
+                  <span><i class="uil uil-share-alt"></i></span>
+                </div>
+                <div class="Bookmark">
+                  <span><i class="uil uil-bookmark-full"></i></span>
+                </div>
+              </div>
+
+              <div class="liked-by">
+                <span
+                  ><img src="./images/profile-10.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-4.jpg" alt="profile photo"
+                /></span>
+                <span
+                  ><img src="./images/profile-12.jpg" alt="profile photo"
+                /></span>
+                <p>Likeed by <b>Ernest Achiever</b> end <b>2,323 others</b></p>
+              </div>
+
+              <div class="caption">
+                <p>
+                  <b>Lana Rose</b> You look great, I'm proud of you
+                  <span class="harsh-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 277 comments</div>
+            </div>
+            <!--*============ /FEED ==============-->
+          </div>
+          <!--*============ /FEEDS ==============-->
         </div>
-        <!--============ /MIDDLE ==============-->
-        <!--============ RIGHT ==============-->
-        <div class="right">
-        </div>
-        <!--============ /RIGHT ==============-->
+        <!--*============ /MIDDLE ==============-->
+        <!--*============ RIGHT ==============-->
+        <div class="right"></div>
+        <!--*============ /RIGHT ==============-->
       </div>
     </main>
 
